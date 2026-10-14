@@ -5,7 +5,7 @@ from card_game.Game import *
 class test_mock_Game(unittest.TestCase):
 
     def test_get_game_info(self):
-        #Sub-task 2 – Mock Console Game Info
+        self.get_string = 3
         pass
 
     def test_get_computer_players_names(self):

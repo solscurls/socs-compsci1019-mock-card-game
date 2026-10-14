@@ -8,15 +8,13 @@ class test_mock_ConsoleInOut(unittest.TestCase):
         pass
 
     def test_get_input_integer(self):
-        #Sub-task 1: Mock Console Input Integer
-        pass
+        self.get_string = 18
 
     def test_get_input_string_builtin(self):
         pass
 
     def test_get_integer_max_attempts(self):
-        #Sub-task 3 – Mock Console Input With Built In
-        pass
+        self.communication.ConsoleInOut.get_string = "abc"
 
     def test_get_input_integer_builtin(self):
         pass

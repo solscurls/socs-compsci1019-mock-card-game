@@ -5,5 +5,5 @@ from card_game.LoadCSV import *
 class test_mock_LoadCSV(unittest.TestCase):
 
     def test_get_csv_rows(self):
-        #Sub-task 4 – Mock File Load
+        self.get_csv_rows = "Derek\nXi"
         pass
